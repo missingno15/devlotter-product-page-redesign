@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Develotter | サービスを創る人のためのSNS</title>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Xcq27wam94g7eSrV6nOThpO5vfSJ6+LIJfbmAHPMWXva2bU9xNjKMBku9mU2r6GLPeBmEPELsC9kYuVAmhhlmQ==" />
+    <link rel="shortcut icon" type="image/x-icon" href="favicon-de87052ee35cbe3b40b401f5a01b40a47b4b5df1ef242dd0147553d3ce741fe7.ico" />
+
+    <link rel="stylesheet" media="all" href="application-6cfe770e338ae34f6669610c7669fad83609a532f592fd1b3d306d005af8d035.css" data-turbolinks-track="reload" />
+    <link rel="stylesheet" media="all" href="overrides.css" data-turbolinks-track="reload" />
+
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="" />
+    <meta name="twitter:title" content="Develotter" />
+    <meta name="twitter:description" content="作ったサービスでつながる開発者向けSNS" />
+    <meta name="twitter:image" content="https://develotter.herokuapp.com/twicard.png" />
+  </head>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-white">
+      <a class="navbar-brand navbar-left" href="/"><span class="top-link"><img src = "develotter.png" class="creatter-logo"></span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <img class="menu-icon" src="/menu-icon.png">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active index-link text-center">
+            <a class="nav-link navbar-right" href="/posts/index"><span class="top-link">サービス一覧</span> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active index-user text-center">
+            <a class="nav-link navbar-right" href="/users/index"><span class="top-link">ユーザーリスト</span> <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active post-link text-center">
+            <a class="nav-link logout-link" href="/auth/twitter"><span class="top-link">ログインする</span></a>
+          </li>
+
+            <!-- <li class="nav-item active post-link text-center">
+              <a class="nav-link" href="#"><span class="top-link">お問い合わせ</span></a>
+            </li>
+            <li class="nav-item active post-link text-center">
+              <a class="nav-link" href="#"><span class="top-link">プライバシーポリシー</span></a>
+            </li> -->
+
+            <!-- <li class="nav-item active post-link text-center">
+              <a class="nav-link" href="#"><span class="top-link">toyokappa</span></a>
+            </li> -->
+        </ul>
+      </div>
+    </nav>
+    <hr class="header-divider">
+  </header>
+  <body>
+    <div class="form">
+      <div class="container">
+        <div class="post-card">
+          <div id="post-show" class="card-block">
+
+            <div class="product-meta">
+              <span id="name-show">Tabimemo</span>
+              <span class="catchcopy">「どこ行こ？そこ行こ！の体験を」</span>
+              <div class="developer">
+                <img src="https://pbs.twimg.com/profile_images/917395705727090698/Nm0-OGSy_normal.jpg" class="user-img">
+                <span class="user-name"><a href="/users/77">toyokappa</a></span><br>
+              </div>
+            </div>
+
+            <div class="content-body">
+              <div class="row">
+                <span class="row-header">説明</span>
+                <div class="content">
+                  <p>旅行のプランを共有するサービスです。地元で自分がよく行く観光スポットや旅行で楽しかった想い出をシェアすることで、みんなのより良い旅行計画の一部にしてもらうことが、このサービスの目的です。</p>
+                  <p>旅行に行きたいけどどこに行こうかな？という方々へ自分たちのオリジナルのプランを共有することで、そこに行ってみよう！という体験を生み出したいと考えています。</p>
+                  <p>是非ご自身のおすすめの旅行、観光プランを投稿してみてください。そして他のユーザーが投稿したプランを参考に新しい旅行計画を立ててみてください。</p>
+                </div>
+              </div>
+
+              <div class="row">
+                <span class="row-header">こだわった点</span>
+                <div class="content">
+                  <p>
+                    ・あまりgemに頼らずに自分の力で実装するように心がけました。<br />
+                    ・UIも他のWebサービスを参考に流行りのデザインを入れ込んでみました。<br />
+                    ・ユーザービリティを考え、直感的に操作しやすいUIを実現することに今後はこだわっていきたいと思います。
+                  </p>
+                </div>
+              </div>
+
+              <div class="row">
+                <span class="row-header">完成までのストーリー</span>
+                <div class="content">
+                  <p>このサービスを作ろうと思ったキッカケは、どちらかという怠慢な考えからでした。自分はあまり旅行の計画をたてるのが得意ではなく、旅行ギリギリまでプランが決まらずに、ぶっつけ本番の弾丸旅行をすることがほとんです。</p>
+                  <p>また、旅行系のサービスは観光スポットの情報サイトや「◯◯に行くなら絶対に行ったほうがいいスポット15選」などのまとめサイトが殆どで、場所を調べて自分でプランを組み替えなければならなかったりします。中にはまとめてもらうのはいいけど結局場所がバラバラで一気に回れないじゃん！みたいな経験もしたことがありました。</p>
+                  <p>そんな中で、誰かの旅行プランが見れるサービスがあれば、旅行自体は好きなのでもっと旅行に行くのになぁ、と考えたのがこのサービスを作ろうと思ったキッカケです。</p>
+                  <p>勉強の題材にもなると思い、去年の9月頃からちまちまと開発に着手し、詰まっては進み詰まっては進みを繰り返し、ようやく自分でもある程度満足行く内容になったので、一旦α版としてリリースする運びとなりました。</p>
+                  <p>リリース後初期フェーズは、プランを検索するというよりはプランを投稿してもらう、という点を強化したいと考えていますので、面倒は承知ですが、皆さんのオススメのプランを幾つかという後頂けますと幸いです。</p>
+                </div>
+              </div>
+
+              <div class="end">
+                <div class="end-meta">
+
+                  <div class="reactions">
+
+                    <div class="reaction likes"> 
+                      <a rel="nofollow" data-method="post" href="/posts/14/likes/create">
+                        <div class="circle-border">
+                          <img src="like_white.png" alt="Like white" />
+                        </div>
+                      </a>
+                    </div> <!-- .likes -->
+
+                    <div class="likes count">
+                      <span>いいね！</span>
+                      <span>0</span>
+                    </div>
+
+                    <div class="reaction wants">
+                      <a rel="nofollow" data-method="post" href="/posts/14/stars/create">
+                        <div class="circle-border">
+                        <img src="star_white.png" alt="Star white" />
+                        </div>
+                      </a>
+                    </div> <!-- .wants -->
+
+                    <div class="wants count">
+                      <span>使いたい！</span>
+                      <span>0</span>
+                    </div>
+                  </div> <!-- .reactions -->
+
+                  <div class="tags">
+                    <a href="#" class="tag">旅行</a>
+                    <a href="#" class="tag">観光</a>
+                    <a href="#" class="tag">グルメ</a>
+                  </div> <!-- .tags -->
+                </div> <!-- .end-meta -->
+
+                <div class="call-to-action">
+                  <a id="product-redirect" href="https://tabimemo.fun" target="_blank">
+                    <span>少し興味がわきました？サービスはこちら</span>
+                    <img src="product-preview-thumbnail.png" alt="">
+                  </a>
+                </div>
+              </div> <!-- .end -->
+            </div>
+
+
+        </div>
+      </div>
+          <!-- <a href="http://twitter.com/share?tag=Develotter">Twitter</a> -->
+            <font size="4">このサービスをシェアする</font>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" data-text="このサービス面白い！Tabimemo" class="twitter-share-button" data-hashtags="Develotter" data-lang="ja" data-show-count="false">Tweet</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,155 @@
+/* Ids */
+
+#name-show {
+  font-size: 65px;
+  margin-top: 45px;
+}
+
+#post-show {
+  margin-top: 115px;
+}
+
+/* Classes */
+
+.call-to-action {
+  margin-left: auto;
+}
+
+.call-to-action #product-redirect {
+  display: flex;
+  flex-direction: column;
+}
+
+.call-to-action #product-redirect span {
+  text-align: center;
+}
+
+.catchcopy {
+  font-size: 20px;
+  color: #C9C9C9;
+  margin-top: -20px;
+}
+
+.card-block {
+  /* overrides */
+  border: none;
+  box-shadow: 1px -1px 10px #DCEDED, -1px 1px 10px #DCEDED;
+}
+
+.circle-border {
+  border: 1px solid rgb(0,0,0,.15);
+  border-radius: 50%;
+  box-shadow: 0px 1px 1px rgb(0,0,0,0.08);
+  width: 65px;
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-body{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.content-body .row {
+  /* overrides */
+  margin-top: 0px;
+
+  display: flex;
+  margin-bottom: 90px;
+}
+
+.content-body .row .row-header {
+  font-size: 35px;
+  font-weight: 700;
+  writing-mode: vertical-lr;
+  flex: 0 0 10%;
+}
+.content-body .row .content {
+  flex: 0 0 90%;
+}
+
+.content-body .row .content p {
+  font-size: 18px;
+}
+
+
+.developer {
+  margin-top: 20px;
+  vertical-align: middle;
+}
+
+.developer .user-img {
+  /* overrides */
+  border: none;
+  margin: 0px;
+  width: 35px;
+  height: 35px;
+
+
+  margin-left: 0px;
+}
+
+.developer .user-name {
+  /* overrides */
+  margin-left: 3px;
+  font-size: 18px;
+}
+
+.end {
+  display: flex;
+  padding-bottom: 55px;
+}
+
+.end .end-meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.end .end-meta .reactions {
+  display: grid;
+  width: 200px;
+  height: auto;
+  grid-template-rows: auto auto;
+  grid-template-columns: 65px auto;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+}
+
+.end .end-meta .reactions .count {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* .end .tags {
+} */
+
+.end .tags .tag {
+  border: 1px solid #00D6DA;
+  border-radius: 3px;
+  box-shadow: 0px 1px 3px #B0D5D6;
+  color: white;
+  background-color: #00D6DA;
+  margin-right: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.navbar {
+  box-shadow: 0px 1px 10px #DCEDED;
+}
+
+.navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.product-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
